@@ -45,7 +45,7 @@ const Kontak = () => {
                     className="form-control"
                     type="text"
                     id="name-1"
-                    name="user_name"
+                    name="name"
                     placeholder="Name"
                   />
                 </div>
@@ -54,7 +54,7 @@ const Kontak = () => {
                     className="form-control"
                     type="email"
                     id="email-1"
-                    name="user_email"
+                    name = "email"
                     placeholder="Email"
                   />
                 </div>
