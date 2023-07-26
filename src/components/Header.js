@@ -3,12 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <React.Fragment>
-      <meta charset="UTF-8"></meta>
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-      ></meta>
-      <meta name="description" content="Website"></meta>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Website Wengdev" />
       <nav
         className="navbar navbar-dark navbar-expand-md sticky-top py-3"
         id="mainNav"
