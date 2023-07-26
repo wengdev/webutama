@@ -1,5 +1,32 @@
 //File: scr/components/Kontak.js
+
+import emailjs from "emailjs-com";
+import React, { useRef } from "react";
+
 const Kontak = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_59pbig2",
+        "template_smz8vaj",
+        form.current,
+        "Bu9pYcC97Ax-rv_sK"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          window.location.reload();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="py-5">
       <div className="container py-5">
@@ -10,8 +37,48 @@ const Kontak = () => {
           </div>
         </div>
         <div className="row d-flex justify-content-center">
-          
-          
+          <div className="col-md-6 col-xl-4">
+            <div>
+              <form className="p-3 p-xl-4" ref={form} onSubmit={sendEmail}>
+                <div className="mb-3">
+                  <input
+                    className="form-control"
+                    type="text"
+                    id="name-1"
+                    name="user_name"
+                    placeholder="Name"
+                  />
+                </div>
+                <div className="mb-3">
+                  <input
+                    className="form-control"
+                    type="email"
+                    id="email-1"
+                    name="user_email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div className="mb-3">
+                  <textarea
+                    className="form-control"
+                    id="message-1"
+                    name="message"
+                    rows="6"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div>
+                  <button
+                    className="btn btn-primary shadow d-block w-100"
+                    type="submit"
+                    value="send"
+                  >
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
           <div className="col-md-4 col-xl-4 d-flex justify-content-center justify-content-xl-start">
             <div className="d-flex flex-wrap flex-md-column justify-content-md-start align-items-md-start h-100">
               <div className="d-flex align-items-center p-3">
@@ -50,7 +117,7 @@ const Kontak = () => {
                 </div>
                 <div className="px-2">
                   <h6 className="fw-bold mb-0">Email</h6>
-                  <p className="text-muted mb-0">johannesap@upi.edu</p>
+                  <p className="text-muted mb-0">johanesalex774@gmail.com</p>
                 </div>
               </div>
               <div className="d-flex align-items-center p-3">
