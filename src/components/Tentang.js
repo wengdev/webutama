@@ -3,6 +3,8 @@
 import image1 from "../assets/img/products/1.jpg";
 import image2 from "../assets/img/products/4.jpg";
 import image3 from "../assets/img/products/5.jpg";
+import image4 from "../assets/img/products/6.jpg";
+
 const Tentang = () => {
   return (
     <section className="py-5">
@@ -80,6 +82,34 @@ const Tentang = () => {
               <p className="text-muted mb-4">Desktop Application Development</p>
               <a
                 href="https://learn.microsoft.com/en-us/windows/apps/desktop/"
+                className="btn btn-primary shadow"
+                type="button"
+              >
+                Learn more
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row row-cols-1 row-cols-md-2 mx-auto"
+          style={{ maxWidth: "900px" }}
+        >
+          <div className="col order-md-last mb-5">
+            <img
+              className="rounded img-fluid shadow"
+              src={image4}
+              alt="Service 4"
+            />
+          </div>
+          <div className="col d-md-flex align-items-md-end align-items-lg-center mb-5">
+            <div>
+              <h5 className="fw-bold">Programming Coaching&nbsp;</h5>
+              <p className="text-muted mb-4">
+                Programming Coaching for Elementary School Student to High
+                School Student
+              </p>
+              <a
+                href="https://ai2.appinventor.mit.edu/"
                 className="btn btn-primary shadow"
                 type="button"
               >

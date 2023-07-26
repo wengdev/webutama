@@ -49,12 +49,12 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <a className="nav-link" href="/kontak">
                   Contact
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/product">
+                <a className="nav-link" href="/produk">
                   Product
                 </a>
               </li>
