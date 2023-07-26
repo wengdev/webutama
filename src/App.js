@@ -22,10 +22,12 @@ function App() {
       // Set different titles based on the route
       if (routeName === "/") {
         pageTitle = "Home Page";
-      } else if (routeName === "/about") {
+      } else if (routeName === "/tentang") {
         pageTitle = "About Us";
-      } else if (routeName === "/contact") {
+      } else if (routeName === "/kontak") {
         pageTitle = "Contact Us";
+      } else if (routeName === "/produk") {
+        pageTitle = "Products";
       }
 
       document.title = pageTitle; // Set the document title

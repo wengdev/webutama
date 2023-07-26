@@ -1,7 +1,7 @@
 //File: scr/components/Home.js
 import image1 from "../assets/img/products/1.jpg";
-import image2 from "../assets/img/products/2.jpg";
-import image3 from "../assets/img/products/3.jpg";
+import image2 from "../assets/img/products/5.jpg";
+import image3 from "../assets/img/products/4.jpg";
 import googleLogo from "../assets/img/brands/google.png";
 import microsoftLogo from "../assets/img/brands/microsoft.png";
 import appleLogo from "../assets/img/brands/apple.png";
