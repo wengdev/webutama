@@ -8,17 +8,7 @@ const Header = () => {
         name="viewport"
         content="width=device-width, initial-scale=1.0"
       ></meta>
-
-      <meta property="og:title" content="Wengdev Coding Community">
-        {" "}
-      </meta>
-      <meta
-        property="og:description"
-        content="Wengdev Coding Community Jasa Pembuatan Aplikasi"
-      >
-        {" "}
-      </meta>
-      <meta name="description" content="Wengdev Coding Community"></meta>
+      <meta name="description" content="Website"></meta>
       <nav
         className="navbar navbar-dark navbar-expand-md sticky-top py-3"
         id="mainNav"
