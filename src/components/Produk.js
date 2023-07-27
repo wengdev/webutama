@@ -2,6 +2,7 @@ import image1 from "../assets/img/products/1.jpg";
 import image2 from "../assets/img/products/5.jpg";
 import image3 from "../assets/img/products/7.jpg";
 import image4 from "../assets/img/products/6.jpg";
+import image5 from "../assets/img/products/8.jpg";
 
 const Produk = () => {
   return (
@@ -36,6 +37,24 @@ const Produk = () => {
                   a location-based attendance system intended for employee
                   attendance was built using the PHP Laravel 8.0 framework for
                   backend and Bootstrap 5.0 for frontend
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col mb-4">
+            <div>
+              <a href="#">
+                <img
+                  className="rounded img-fluid shadow w-100 fit-cover"
+                  src={image5}
+                  style={{ height: "250px" }}
+                />
+              </a>
+              <div className="py-4">
+                <span className="badge bg-primary mb-2">Website</span>
+                <h4 className="fw-bold">PEMILU</h4>
+                <p className="text-muted">
+                  Dummy application for online elections created using express js 
                 </p>
               </div>
             </div>
@@ -81,6 +100,7 @@ const Produk = () => {
               </div>
             </div>
           </div>
+
           <div className="col mb-4">
             <div>
               <a href="#">
@@ -95,8 +115,8 @@ const Produk = () => {
                 <h4 className="fw-bold">Coaching Programming</h4>
                 <p className="text-muted">
                   Coding training for elementary to high school students. Basic
-                  programming training from using scratch, Appinventor, and to web
-                  programming
+                  programming training from using scratch, Appinventor, and to
+                  web programming
                 </p>
               </div>
             </div>
