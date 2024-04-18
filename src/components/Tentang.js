@@ -11,8 +11,8 @@ const Tentang = () => {
       <div className="container py-5">
         <div className="row mb-4 mb-lg-5">
           <div className="col-md-8 col-xl-6 text-center mx-auto">
-            <p className="fw-bold text-success mb-2">Our Services</p>
-            <h3 className="fw-bold">What we can do for you</h3>
+            <p className="fw-bold text-success mb-2">Mengajar</p>
+            <h3 className="fw-bold">Berbagai Bahasa Pemrograman</h3>
           </div>
         </div>
         <div
@@ -28,14 +28,17 @@ const Tentang = () => {
           </div>
           <div className="col d-md-flex align-items-md-end align-items-lg-center mb-5">
             <div>
-              <h5 className="fw-bold">Web Application&nbsp;</h5>
-              <p className="text-muted mb-4">Website Application Development</p>
+              <h5 className="fw-bold">Pemrograman Website&nbsp;</h5>
+              <p className="text-muted mb-4">
+                Kami mengajar pemrograman website dengan teknologi yang
+                digunakan di masa kini seperti PHP, Javascript, dan Python
+              </p>
               <a
                 className="btn btn-primary shadow"
                 type="button"
                 href="https://en.wikipedia.org/wiki/Website"
               >
-                Learn more
+                Baca Selengkapnya
               </a>
             </div>
           </div>
@@ -53,14 +56,18 @@ const Tentang = () => {
           </div>
           <div className="col d-md-flex align-items-md-end align-items-lg-center mb-5">
             <div>
-              <h5 className="fw-bold">Android Application Development&nbsp;</h5>
-              <p className="text-muted mb-4">Android Application Development</p>
+              <h5 className="fw-bold">Pemrograman Android&nbsp;</h5>
+              <p className="text-muted mb-4">
+                Kami mengajar pemrograman Android dengan berbagai bahasa
+                pemrograman modern seperti Java, Kotlin, React Native, dan
+                Flutter{" "}
+              </p>
               <a
                 href="https://android.com"
                 className="btn btn-primary shadow"
                 type="button"
               >
-                Learn more
+                Baca Selengkapnya
               </a>
             </div>
           </div>
@@ -78,14 +85,17 @@ const Tentang = () => {
           </div>
           <div className="col d-md-flex align-items-md-end align-items-lg-center mb-5">
             <div>
-              <h5 className="fw-bold">Desktop Application Development&nbsp;</h5>
-              <p className="text-muted mb-4">Desktop Application Development</p>
+              <h5 className="fw-bold">Pemrograman Desktop&nbsp;</h5>
+              <p className="text-muted mb-4">
+                Kami mengajar pemrograman desktop dengan berbagai bahasa
+                pemrograman seperti VB .NET, Java, dan C# .NET
+              </p>
               <a
                 href="https://learn.microsoft.com/en-us/windows/apps/desktop/"
                 className="btn btn-primary shadow"
                 type="button"
               >
-                Learn more
+                Baca Selengkapnya
               </a>
             </div>
           </div>
@@ -103,17 +113,19 @@ const Tentang = () => {
           </div>
           <div className="col d-md-flex align-items-md-end align-items-lg-center mb-5">
             <div>
-              <h5 className="fw-bold">Programming Coaching&nbsp;</h5>
+              <h5 className="fw-bold">Pemrograman Berbasis Block&nbsp;</h5>
               <p className="text-muted mb-4">
-                Programming Coaching for Elementary School Student to High
-                School Student
+                Kami mengajar pemrograman berbasis block seperti Scratch,
+                Blockly, App Inventor, dan lain sebagainya yang cocok bagi Anda
+                yang masih pemula dalam bidang pemrograman namun ingin membuat
+                aplikasi yang powerful
               </p>
               <a
                 href="https://ai2.appinventor.mit.edu/"
                 className="btn btn-primary shadow"
                 type="button"
               >
-                Learn more
+                Baca Selengkapnya
               </a>
             </div>
           </div>

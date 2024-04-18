@@ -10,10 +10,13 @@ const Produk = () => {
       <div className="container py-5">
         <div className="row mb-5">
           <div className="col-md-8 col-xl-6 text-center mx-auto">
-            <h2 className="fw-bold">Our Sample Product</h2>
+            <h2 className="fw-bold">
+              Beberapa Sample Aplikasi yang Pernah Kami Buat Bersama Murid-murid
+              kami
+            </h2>
             <p className="text-muted">
-              some examples of our products, be it website, android or desktop
-              applications, and coaching
+              Terdapat beragam aplikasi yang kami buat yaitu berbasis website,
+              Android, dan Desktop
             </p>
           </div>
         </div>
@@ -32,11 +35,14 @@ const Produk = () => {
               </a>
               <div className="py-4">
                 <span className="badge bg-primary mb-2">Website</span>
-                <h4 className="fw-bold">SIAGELO</h4>
+                <h4 className="fw-bold">
+                  Aplikasi Absensi Berbasis Geo lokasi
+                </h4>
                 <p className="text-muted">
-                  a location-based attendance system intended for employee
-                  attendance was built using the PHP Laravel 8.0 framework for
-                  backend and Bootstrap 5.0 for frontend
+                  Aplikasi ini merupakan hasil karya seorang siswa yang kami
+                  latih untuk membuat sebuah aplikasi dengan bahasa pemrograman
+                  PHP dan menggunakan framework laravel yang pada akhirnya
+                  membuat absensi berbasis lokasi
                 </p>
               </div>
             </div>
@@ -52,9 +58,12 @@ const Produk = () => {
               </a>
               <div className="py-4">
                 <span className="badge bg-primary mb-2">Website</span>
-                <h4 className="fw-bold">PEMILU</h4>
+                <h4 className="fw-bold">Aplikasi E-Voting</h4>
                 <p className="text-muted">
-                  Dummy application for online elections created using express js 
+                  Aplikasi ini merupakan hasil karya seorang siswa yang kami
+                  latih untuk membuat sebuah aplikasi dengan bahasa javascript
+                  dengan menggunakan teknologi express js yang pada akhirnya
+                  membuat aplikasi dummy untuk E-Voting
                 </p>
               </div>
             </div>
@@ -69,13 +78,13 @@ const Produk = () => {
                 />
               </a>
               <div className="py-4">
-                <span className="badge bg-primary mb-2">
-                  Desktop Application
-                </span>
-                <h4 className="fw-bold">Sistem Penjualan Makanan</h4>
+                <span className="badge bg-primary mb-2">Desktop</span>
+                <h4 className="fw-bold">Aplikasi Sistem Penjualan Makanan</h4>
                 <p className="text-muted">
-                  a food sales system created to record food data and food sales
-                  (cashiers) and built using the C# .NET programming language.
+                  Aplikasi ini merupakan hasil karya siswa yang kami latih yang
+                  ditujukan untuk perlombaan LKS tingkat kota Cimahi dan
+                  memenangkan juara 1. Aplikasi ini dibangun dengan database SQL
+                  Server dan bahasa Pemrograman C#
                 </p>
               </div>
             </div>
@@ -91,32 +100,12 @@ const Produk = () => {
               </a>
               <div className="py-4">
                 <span className="badge bg-primary mb-2">Android</span>
-                <h4 className="fw-bold">Dwilingo Kids</h4>
+                <h4 className="fw-bold">Aplikasi Dwilingo Kids</h4>
                 <p className="text-muted">
-                  Mobile Learning application for language learning. For the
-                  Android side it is built using the Java Programming Language
-                  and for the server side it uses Laravel
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col mb-4">
-            <div>
-              <a href="#">
-                <img
-                  className="rounded img-fluid shadow w-100 fit-cover"
-                  src={image4}
-                  style={{ height: "250px" }}
-                />
-              </a>
-              <div className="py-4">
-                <span className="badge bg-primary mb-2">Coaching</span>
-                <h4 className="fw-bold">Coaching Programming</h4>
-                <p className="text-muted">
-                  Coding training for elementary to high school students. Basic
-                  programming training from using scratch, Appinventor, and to
-                  web programming
+                  Aplikasi ini merupakan hasil karya seorang siswa yang kami
+                  latih untuk membuat sebuah aplikasi berbasis android dengan
+                  bahasa java yang bertujuan untuk membuat sebuah aplikasi
+                  E-Learning sederhana
                 </p>
               </div>
             </div>

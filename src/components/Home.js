@@ -17,10 +17,11 @@ const Home = () => {
             <div className="col-md-8 col-xl-6 text-center text-md-start mx-auto">
               <div className="text-center">
                 <p className="fw-bold text-success mb-2">
-                  Voted #1 Code Community
+                  Kami Menyediakan Pembelajaran yang Menyenangkan dengan
+                  Pendekatan Project Based Learning
                 </p>
                 <h1 className="fw-bold">
-                  The best solution for you and your customers
+                  Jasa Pengajaran Pemrograman Private Terbaik untuk Anda
                 </h1>
               </div>
             </div>
@@ -83,7 +84,7 @@ const Home = () => {
       <section className="py-5">
         <div className="container text-center py-5">
           <p className="mb-4" style={{ fontSize: "1.6rem" }}>
-            Build Application For:
+            Mengajar Pemrograman untuk pembuatan aplikasi:
           </p>
 
           <a href="#">

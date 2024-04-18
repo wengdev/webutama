@@ -32,8 +32,8 @@ const Kontak = () => {
       <div className="container py-5">
         <div className="row mb-5">
           <div className="col-md-8 col-xl-6 text-center mx-auto">
-            <p className="fw-bold text-success mb-2">Contacts</p>
-            <h2 className="fw-bold">How you can reach us</h2>
+            <p className="fw-bold text-success mb-2">Kontak</p>
+            <h2 className="fw-bold">Tertarik Belajar Private bersama Kami?</h2>
           </div>
         </div>
         <div className="row d-flex justify-content-center">
@@ -46,7 +46,7 @@ const Kontak = () => {
                     type="text"
                     id="name-1"
                     name="name"
-                    placeholder="Name"
+                    placeholder="Nama"
                   />
                 </div>
                 <div className="mb-3">
@@ -54,7 +54,7 @@ const Kontak = () => {
                     className="form-control"
                     type="email"
                     id="email-1"
-                    name = "email"
+                    name="email"
                     placeholder="Email"
                   />
                 </div>
@@ -64,7 +64,7 @@ const Kontak = () => {
                     id="message-1"
                     name="message"
                     rows="6"
-                    placeholder="Message"
+                    placeholder="Pesan"
                   ></textarea>
                 </div>
                 <div>
@@ -73,7 +73,7 @@ const Kontak = () => {
                     type="submit"
                     value="send"
                   >
-                    Send
+                    Kirim
                   </button>
                 </div>
               </form>
@@ -95,7 +95,7 @@ const Kontak = () => {
                   </svg>
                 </div>
                 <div className="px-2">
-                  <h6 className="fw-bold mb-0">Phone</h6>
+                  <h6 className="fw-bold mb-0">Whatsapp</h6>
                   <p className="text-muted mb-0">+6281934172542</p>
                 </div>
               </div>
@@ -134,8 +134,8 @@ const Kontak = () => {
                   </svg>
                 </div>
                 <div className="px-2">
-                  <h6 className="fw-bold mb-0">Location</h6>
-                  <p className="text-muted mb-0">Bandung, West Java</p>
+                  <h6 className="fw-bold mb-0">Lokasi Kami:</h6>
+                  <p className="text-muted mb-0">Kota Bandung</p>
                 </div>
               </div>
             </div>
